@@ -32,7 +32,7 @@ public class ConstructorHeavyFirstComparator extends AbstractConstructorComparat
 		}
 
 		/* Then constructors with more parameters */
-		result = -constructor1.getParameterTypes().length
+		result = constructor1.getParameterTypes().length
 				+ constructor2.getParameterTypes().length;
 		if (result != 0) {
 			return result;
